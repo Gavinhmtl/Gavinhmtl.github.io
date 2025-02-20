@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    p{
+      font-size: large;
+    }
+     .font1{
+      font-size: large;
+      color:white;
+    }
+    .background{
+      background-color: black;
+    }
+    h2{
+      border:solid;
+    border-color:white;
+    background-color: #333;
+    margin: 5px;
+    color:white;
+    }
+    h1{
+    color:black;
+    }
+    img{
+      border: solid white;
+    
+    }
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+
+.social-media-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.row {
+    display: flex;
+    gap: 20px; /* Space between buttons in a row */
+}
+
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    width: 100px; /* Width of the square */
+    height: 100px; /* Height of the square */
+    border-radius: 10px; /* Optional rounded corners */
+    font-size: 30px; /* Larger icon */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.snapchat {
+    background-color: #FFFC00; /* Snapchat yellow */
+}
+
+.instagram {
+    background-color: #E1306C; /* Instagram pink */
+}
+
+.twitter {
+    background-color: #1DA1F2; 
+}
+
+.facebook {
+    background-color: #3b5998; 
+}
+
+
+.social-button:hover {
+    background-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: lightblue; 
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color:darkblue; 
+}
+
+
+.social-links {
+    padding-left: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+.boxcolor{
+    border:solid;
+    border-color:white;
+    background-color: #333;
+}
+  </style>
+</head>
+<body class="background">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Gavin Soto</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipe
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="recipe.html">Recipe 1</a></li>
+            <li><a href="recipe2.html">Recipe 2</a></li>
+            <li><a href="recipe3.html">Recipe 3</a></li>
+          </ul>
+        </li>
+        <li><a href="grades.html">Acdemics </a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="career.html">Career</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container-fluid">
+        <div class="jumbotron" style="background-color: aliceblue; color: black">
+          <h1 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Academics</h1>      
+        </div>      
+    </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4" >
+        <img src="media2/NJHS.jpeg"  class="img-rounded" width="450px" height="300px">
+    </div>
+    <div class="col-sm-8">
+          <h2 class="text-center">NJHS</h2>
+        <p class="font1">I participated in the National Junior Honor Society or NJHS during my last years of middle school in 7th and 8th grade. I was invited during my 6th and declined the offer than later joined again in 7th grade and finished it during my 8th grade year. This was a high achievment due to the fact that the only way to get into this program was to be a straight A student and be a perfectly behaved kid and that means having no suspention or detentions. This group helped control all the events and fix all the problems in the school the only the kids could know about to make the school a better place overall for not just teachers but students.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8" >
+      <h2 class="text-center"> Awards</h2>
+      <p class="font1"> Throughout my academic and extracurricular journey, I have been honored to receive several prestigious awards that reflect my dedication and leadership. As the Salutatorian of my class, I take pride in the hard work and commitment that helped me achieve this accomplishment. My role as the Captain of the Track and Field team has allowed me to develop leadership skills while inspiring my teammates to push beyond their limits. Being the Captain of the National Junior Honor Society has also taught me the importance of service, responsibility, and academic excellence. Additionally, receiving the Student of the Year award was a humbling recognition of my contributions both in and out of the classroom. I am also grateful for the Science Scholar Award, which acknowledged my passion for and achievements in the field of science. These awards have not only fueled my ambition but have also reinforced my belief in the value of perseverance and leadership. </p>
+    </div>
+    <div class="col-sm-4">
+      <img src="media2/award2.jpeg" class="img-rounded"  width="450px" height="300px">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4" >
+      <img src="media2/college.jpeg" class="img-rounded" width="450px" height="300px">
+     </div>
+    <div class="col-sm-8">
+      <h2 class="text-center">College</h2>
+      <p class="font1"> My dream college is Northwestern University, a place where I believe my academic and personal growth would flourish. The university’s strong emphasis on interdisciplinary learning aligns perfectly with my aspirations to explore various fields and build a well-rounded education. Northwestern's renowned faculty, cutting-edge research facilities, and vibrant campus culture offer an ideal environment for me to challenge myself intellectually and socially. The opportunity to engage in hands-on experiences, such as internships and study abroad programs, would help me gain real-world skills while fostering my passion for discovery. I am drawn to Northwestern not just for its academic excellence but for its sense of community and its commitment to fostering a diverse and inclusive environment. I truly believe attending Northwestern would be a transformative experience that will prepare me for a successful future. </p>
+    </div>
+  </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <footer>
+                  <div class="footer-container">
+                      <!-- Column 1: Company Info -->
+                      <div class="footer-column">
+                          <h3>Contact Information</h3>
+                          <p>123 Main Street, City, Country</p>
+                          <p>Email: info@gmail.com</p>
+                          <p>Phone: +123 456 7890</p>
+                      </div>
+
+                      <!-- Column 2: Quick Links -->
+                      <div class="footer-column">
+                          <h3>Quick Links</h3>
+                          <ul class="font1">
+                              <li><a href="idex.html">Home</a></li>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Services</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+
+                      <!-- Column 3: Social Media -->
+                      <div class="footer-column">
+                                  <div class="social-media-buttons">
+                          <!-- Row 1: Snapchat and Instagram -->
+                          <div class="row">
+                              <a href="https://www.snapchat.com" class="social-button snapchat" target="_blank">
+                                  <i class="fab fa-snapchat-ghost"></i>
+                              </a>
+                              <a href="https://www.instagram.com" class="social-button instagram" target="_blank">
+                                  <i class="fab fa-instagram"></i>
+                              </a>
+                          </div>
+                          
+                          <!-- Row 2: Twitter and Facebook -->
+                          <div class="row">
+                              <a href="https://www.twitter.com" class="social-button twitter" target="_blank">
+                                  <i class="fab fa-twitter"></i>
+                              </a>
+                              <a href="https://www.facebook.com" class="social-button facebook" target="_blank">
+                                  <i class="fab fa-facebook-f"></i>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+              </div>
+          </div>
+</div>
+
+</body>
+</html>

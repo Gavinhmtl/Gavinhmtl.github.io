@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    p{
+      font-size: large;
+    }
+     .font1{
+      font-size: large;
+      color:white;
+    }
+    .background{
+      background-color: black;
+    }
+    h2{
+      border:solid;
+    border-color:white;
+    background-color: #333;
+    margin: 5px;
+    color:white;
+    }
+    h1{
+    color:black;
+    }
+    img{
+      border: solid white;
+    
+    }
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+
+.social-media-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.row {
+    display: flex;
+    gap: 20px; /* Space between buttons in a row */
+}
+
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    width: 100px; /* Width of the square */
+    height: 100px; /* Height of the square */
+    border-radius: 10px; /* Optional rounded corners */
+    font-size: 30px; /* Larger icon */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.snapchat {
+    background-color: #FFFC00; /* Snapchat yellow */
+}
+
+.instagram {
+    background-color: #E1306C; /* Instagram pink */
+}
+
+.twitter {
+    background-color: #1DA1F2; 
+}
+
+.facebook {
+    background-color: #3b5998; 
+}
+
+
+.social-button:hover {
+    background-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: lightblue; 
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color:darkblue; 
+}
+
+
+.social-links {
+    padding-left: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+.boxcolor{
+    border:solid;
+    border-color:white;
+    background-color: #333;
+}
+  </style>
+</head>
+<body class="background">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Gavin Soto</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipe
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="recipe.html">Recipe 1</a></li>
+            <li><a href="recipe2.html">Recipe 2</a></li>
+            <li><a href="recipe3.html">Recipe 3</a></li>
+          </ul>
+        </li>
+        <li><a href="grades.html">Acdemics </a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="career.html">Career</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container-fluid">
+        <div class="jumbotron" style="background-color: aliceblue; color: black">
+          <h1 class="text-center"  style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"">Sports</h1>      
+        </div>      
+    </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4" >
+        <img src="media2/football.jpeg"  class="img-rounded" width="450px" height="300px">
+    </div>
+    <div class="col-sm-8">
+          <h2 class="text-center">Football</h2>
+        <p class="font1"> My name is Gavin, and I played Football at 11 years old, standing at 5'2". Even though I wasn’t the tallest player on the field, my speed and agility helped me stand out. I played wide receiver for a local youth football team in Chicago, where I was known for my ability to catch passes and make plays under pressure. I was proud to be a key player on my team, whether it was catching a game-winning touchdown or keeping my teammates motivated. My dream was to one day play for the Chicago Bears, so I worked hard to improve my skills every day. Football was my passion, and I was determined to keep growing and making my mark on the game.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8" >
+      <h2 class="text-center"> Wresltling</h2>
+      <p class="font1"> At 14 years old, standing 5'9" and weighing 150 pounds, I am a dedicated freshman wrestler committed to growing both physically and technically in the sport. Competing in the 152-pound weight class, I am learning to leverage my height and reach advantage, using my longer limbs to execute moves such as arm drags and single-leg takedowns. As I transition from middle school to high school wrestling, I am focused on building a solid foundation in technique, strength, and endurance. With a strong work ethic and a passion for the sport, I am excited to continue developing my skills and reaching my full potential over the next few years. </p>
+    </div>
+    <div class="col-sm-4">
+      <img src="media2/wresltling.jpg" class="img-rounded"  width="450px" height="300px">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4" >
+      <img src="media2/track.jpg" class="img-rounded" width="450px" height="300px">
+     </div>
+    <div class="col-sm-8">
+      <h2 class="text-center">Track & Field</h2>
+      <p class="font1"> As a 14-year-old freshman standing 5'9" and weighing 150 pounds, I am eager to make my mark in track and field. Whether competing in sprints or middle-distance events, I am focused on building strength, speed, and endurance. My height gives me an advantage in stride length, and I am working hard to improve my form and technique to maximize my efficiency on the track. This season, I am committed to pushing my limits and developing my skills, with a goal of becoming a key contributor to my team and continuing to grow as an athlete over the coming years.</p>
+    </div>
+  </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <footer>
+                  <div class="footer-container">
+                      <!-- Column 1: Company Info -->
+                      <div class="footer-column">
+                          <h3>Contact Information</h3>
+                          <p>123 Main Street, City, Country</p>
+                          <p>Email: info@gmail.com</p>
+                          <p>Phone: +123 456 7890</p>
+                      </div>
+
+                      <!-- Column 2: Quick Links -->
+                      <div class="footer-column">
+                          <h3>Quick Links</h3>
+                          <ul class="font1">
+                              <li><a href="idex.html">Home</a></li>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Services</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+
+                      <!-- Column 3: Social Media -->
+                      <div class="footer-column">
+                                  <div class="social-media-buttons">
+                          <!-- Row 1: Snapchat and Instagram -->
+                          <div class="row">
+                              <a href="https://www.snapchat.com" class="social-button snapchat" target="_blank">
+                                  <i class="fab fa-snapchat-ghost"></i>
+                              </a>
+                              <a href="https://www.instagram.com" class="social-button instagram" target="_blank">
+                                  <i class="fab fa-instagram"></i>
+                              </a>
+                          </div>
+                          
+                          <!-- Row 2: Twitter and Facebook -->
+                          <div class="row">
+                              <a href="https://www.twitter.com" class="social-button twitter" target="_blank">
+                                  <i class="fab fa-twitter"></i>
+                              </a>
+                              <a href="https://www.facebook.com" class="social-button facebook" target="_blank">
+                                  <i class="fab fa-facebook-f"></i>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+              </div>
+          </div>
+</div>
+
+</body>
+</html>
